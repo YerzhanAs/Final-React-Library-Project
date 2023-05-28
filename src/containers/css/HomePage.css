@@ -1,0 +1,165 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.company-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-company {
+    max-width: 900px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    padding: 40px;
+}
+
+.advantage-card {
+    flex-basis: 30%;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.advantage-card:hover {
+    transform: translateY(-5px);
+}
+
+.advantage-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.advantage-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.advantage-card::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #333;
+    margin: 15px auto 0;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-bottom: 40px;
+    padding: 40px;
+}
+
+.contact-info {
+    flex-basis: 50%;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    flex-basis: 50%;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
